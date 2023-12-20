@@ -1,0 +1,112 @@
+
+
+.nav{
+    background-color: #FBF7E3;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+
+header nav ul li img{
+    height: 20px;
+}
+
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li{
+    display: flex;
+    align-items: center;
+}
+
+ul li button{   
+    display: flex;
+    background-color: #f3df85;
+    border: none;
+    border-radius: 50px;
+    font-size: 10px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+
+.third_button{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #FBF7E3 ;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+
+.card img{
+    border-top-right-radius:50px ;
+    border-top-left-radius:50px ;
+}
+
+.inside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button{
+    text-align: center;
+}
+
+
+.button button{
+    background-color: #f3df85;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#sx h3{
+    margin-bottom: 0;
+}
+
+#sx h4{
+    margin-top: 0;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.big_card{
+    background-color: #FBF7E3;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.big_card h2, p{
+margin-right: 10px;
+margin-left: 10px;
+}
+
+
